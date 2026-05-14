@@ -1,16 +1,129 @@
-# React + Vite
+# 🐰 Bunny Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, cute and responsive **React To-Do List application** designed to help users organize daily tasks with a clean UI, smooth interactions, and persistent storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 📝 Add new tasks instantly
+* ✔ Mark tasks as completed
+* ✏ Edit existing tasks
+* 🗑 Delete individual tasks
+* 🧹 Clear all completed tasks at once
+* 💾 Persistent data using Local Storage
+* 🎯 Auto-scroll to latest tasks
+* 🎨 Smooth UI animations and hover effects
+* 🐰 Cute themed UI with bunny-inspired design
+* 📱 Fully responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* React Router DOM
+* Material UI (MUI)
+* JavaScript (ES6+)
+* CSS3
+* Local Storage API
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+├── Components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── ToDoInput.jsx
+│   ├── ToDoList.jsx
+│   └── ToDoItem.jsx
+│
+├── Pages/
+│   ├── WelcomePage.jsx
+│   └── TodoPage.jsx
+│
+├── Hooks/
+│   ├── useTodos.js
+│   └── useTodoEditor.js
+│
+├── App.jsx
+├── main.jsx
+└── style.css
+
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/React_Bunny_Tasks_Manager.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+> *(Add this after deploying on Vercel)*
+> https://your-live-demo-link.vercel.app
+
+---
+
+## 📸 Preview
+
+*(Add screenshots here later)*
+
+Example:
+
+* Welcome Page (Bunny Landing Screen)
+* Main Todo Interface
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me improve:
+
+* React component architecture
+* State management using hooks
+* Routing with React Router
+* UI design using Material UI
+* Persistent storage using localStorage
+* Code organization in real-world structure
+
+---
+
+## 💡 Future Improvements
+
+* Date boxes & calender improvement
+* Task categories / tags
+* Due dates and reminders
+* Backend integration (MongoDB / Firebase)
+
+---
+
+## 👩‍💻 Author
+
+**Ashini Gunawardhana**
+React Developer (Learning Phase)
+
+```
+```
