@@ -82,8 +82,8 @@ npm run dev
 
 ## 🌐 Live Demo
 
-> *(Add this after deploying on Vercel)*
-> https://your-live-demo-link.vercel.app
+> 🚀 Try the app here:  
+https://reactbunnytaskmanager.vercel.app/
 
 ---
 
