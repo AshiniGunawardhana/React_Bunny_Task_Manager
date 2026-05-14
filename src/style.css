@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  font-family: inherit;
+  list-style: none;
+  padding: 0;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Scrollbar width */
+.todo-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar track */
+.todo-scroll::-webkit-scrollbar-track {
+  background: #ffe9e4;
+  border-radius: 20px;
+}
+
+/* Scrollbar thumb */
+.todo-scroll::-webkit-scrollbar-thumb {
+  background: #E58F7C;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+.todo-scroll::-webkit-scrollbar-thumb:hover {
+  background: #d97766;
+}
+
+.todo-scroll {
+  scrollbar-gutter: stable;
+}
