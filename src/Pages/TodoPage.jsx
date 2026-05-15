@@ -98,26 +98,29 @@ function TodoPage() {
       <div
         style={{
           position: "fixed",
-          bottom: "-10px",
-          right: "-10px",
+          bottom: "0",
+          right: "0",
           zIndex: 1000,
+          pointerEvents: "none",
         }}
       >
+        {/* Speech Bubble */}
         <div
           style={{
             position: "absolute",
-            top: "-20px",
-            right: "250px",
+            top: "clamp(-10px, -2vw, -25px)",
+            right: "clamp(120px, 18vw, 250px)",
             backgroundColor: "white",
             color: "#023FA1",
-            padding: "8px 14px",
+            padding: "clamp(6px, 1vw, 10px) clamp(10px, 1.5vw, 16px)",
             borderRadius: "16px",
-            fontSize: "14px",
+            fontSize: "clamp(12px, 1vw, 15px)",
             fontWeight: "600",
             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
             whiteSpace: "nowrap",
             transition: "all 0.25s ease-in-out",
             cursor: "default",
+            pointerEvents: "auto",
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "translateY(-3px) scale(1.03)";
@@ -152,9 +155,9 @@ function TodoPage() {
           alt=""
           style={{
             position: "absolute",
-            bottom: "30px",
-            right: "30px",
-            width: "220px",
+            bottom: "clamp(10px, 2vw, 20px)",
+            right: "clamp(10px, 2vw, 30px)",
+            width: "clamp(120px, 18vw, 240px)",
             opacity: 0.9,
           }}
         />
@@ -166,9 +169,9 @@ function TodoPage() {
           style={{
             position: "relative",
             bottom: "10px",
-            right: "10px",
-            width: "400px",
-            height: "400px",
+            right: "20px",
+            width: "clamp(180px, 28vw, 350px)",
+            height: "auto",
             objectFit: "contain",
             zIndex: 1000,
             pointerEvents: "none",
