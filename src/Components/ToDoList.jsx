@@ -25,7 +25,7 @@ function ToDoList({ items, deleteItem, handleLineThrough, isDone, editor }) {
     <div
       className="todo-scroll"
       style={{
-        maxHeight: "clamp(250px, 55vh, 600px)",
+        maxHeight: "clamp(150px, 55vh, 600px)",
         marginTop: 8,
         flex: 1,
         overflowY: "auto",
