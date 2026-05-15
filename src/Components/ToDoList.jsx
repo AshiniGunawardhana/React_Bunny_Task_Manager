@@ -30,7 +30,7 @@ function ToDoList({ items, deleteItem, handleLineThrough, isDone, editor }) {
         overflowY: "auto",
         paddingRight: "4px",
         paddingTop: "4px",
-        paddingBottom: "40px",
+        paddingBottom: "clamp(40px, 8vw, 80px)",
         minHeight: 0,
         boxSizing: "border-box",
       }}
