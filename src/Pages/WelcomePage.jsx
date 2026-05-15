@@ -15,13 +15,14 @@ function WelcomePage() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+        px: 2,
       }}
     >
       <img
         src="/Bunny.png"
         alt="Bunny"
         style={{
-          width: "300px",
+          width: "clamp(180px, 40vw, 300px)",
           animation: "float 3s ease-in-out infinite",
         }}
       />
@@ -32,6 +33,12 @@ function WelcomePage() {
           fontWeight: 800,
           color: "#011638",
           mt: 2,
+
+          fontSize: {
+            xs: "2rem",   // mobile
+            sm: "3rem",
+            md: "3.5rem",
+          },
         }}
       >
         Bunny Tasks 🐰
@@ -46,6 +53,10 @@ function WelcomePage() {
           px: 5,
           py: 1.5,
           fontWeight: 700,
+          fontSize: {
+            xs: "0.9rem",
+            sm: "1rem",
+          },
         }}
         onClick={() => navigate("/app")}
       >
