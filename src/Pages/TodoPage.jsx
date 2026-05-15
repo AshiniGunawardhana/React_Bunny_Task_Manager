@@ -24,6 +24,8 @@ function TodoPage() {
   const { editingId, editText, setEditText, startEditing, saveEdit } =
     useTodoEditor(updateItem);
 
+  const isMobile = window.innerWidth < 600;
+
   function handleClick() {
     addItem(inputText);
     setInputText("");
@@ -105,6 +107,7 @@ function TodoPage() {
         }}
       >
         {/* Speech Bubble */}
+        {!isMobile && (
         <div
           style={{
             position: "absolute",
@@ -153,6 +156,7 @@ function TodoPage() {
             }}
           />
         </div>
+      )}
 
         {/*Grass Image*/}
         <img
