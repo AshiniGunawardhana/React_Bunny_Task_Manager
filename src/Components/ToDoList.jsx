@@ -25,12 +25,13 @@ function ToDoList({ items, deleteItem, handleLineThrough, isDone, editor }) {
     <div
       className="todo-scroll"
       style={{
+        maxHeight: "calc(100vh - 220px)",
         marginTop: 8,
         flex: 1,
         overflowY: "auto",
         paddingRight: "4px",
         paddingTop: "4px",
-        paddingBottom: "clamp(80px, 8vw, 80px)",
+        paddingBottom: "clamp(60px, 8vw, 60px)",
         minHeight: 0,
         boxSizing: "border-box",
       }}
