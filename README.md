@@ -19,6 +19,16 @@ A modern, cute and responsive **React To-Do List application** designed to help 
 
 ---
 
+## ✨ Highlights
+
+- React component-based architecture
+- React Router navigation
+- localStorage persistence
+- Material UI styling
+- Fully deployed on Vercel
+
+---
+
 ## 🛠 Tech Stack
 
 * React.js
@@ -63,7 +73,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/React_Bunny_Tasks_Manager.git
+git clone https://github.com/AshiniGunawardhana/React_Bunny_Task_Manager
 ```
 
 ### 2. Install dependencies
@@ -89,12 +99,14 @@ https://reactbunnytaskmanager.vercel.app/
 
 ## 📸 Preview
 
-*(Add screenshots here later)*
+### 🐰 Welcome Page (Bunny Landing Screen)
+![Welcome Page](./screenshots/welcome_page.png)
 
-Example:
+### ✅ Main Todo Interface
+![Todo Interface](./screenshots/todo_page.png)
 
-* Welcome Page (Bunny Landing Screen)
-* Main Todo Interface
+### ✅ Todo Interface - Empty List
+![Todo Interface Empty List](./screenshots/todo_page_empty.png)
 
 ---
 
@@ -123,7 +135,7 @@ This project helped me improve:
 ## 👩‍💻 Author
 
 **Ashini Gunawardhana**
-React Developer (Learning Phase)
+(React Developer-Lerning Phrase)
 
 ```
 ```
