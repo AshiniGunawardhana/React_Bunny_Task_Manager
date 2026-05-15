@@ -33,7 +33,6 @@ function ToDoList({ items, deleteItem, handleLineThrough, isDone, editor }) {
         paddingBottom: "40px",
         minHeight: 0,
         boxSizing: "border-box",
-        scrollSnapType: "y mandatory",
       }}
     >
       {items.length === 0 && (

@@ -47,9 +47,8 @@ function TodoPage() {
         sx={{
           p: 3,
           pt: 4,
-          minHeight: "calc(100dvh - 48px)",
+          height: "calc(100vh - 48px)",
           overflow: "hidden",
-          touchAction: "manipulation",
           bgcolor: "background.default",
           boxSizing: "border-box",
         }}
@@ -108,12 +107,12 @@ function TodoPage() {
           style={{
             position: "absolute",
             top: "-20px",
-            right: "clamp(90px, 20vw, 250px)",
+            right: "250px",
             backgroundColor: "white",
             color: "#023FA1",
             padding: "8px 14px",
             borderRadius: "16px",
-            fontSize: "clamp(11px, 2vw, 14px)",
+            fontSize: "14px",
             fontWeight: "600",
             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
             whiteSpace: "nowrap",
@@ -155,7 +154,7 @@ function TodoPage() {
             position: "absolute",
             bottom: "30px",
             right: "30px",
-            width: "clamp(100px, 20vw, 220px)",
+            width: "220px",
             opacity: 0.9,
           }}
         />
@@ -168,9 +167,8 @@ function TodoPage() {
             position: "relative",
             bottom: "10px",
             right: "10px",
-            width: "clamp(160px, 40vw, 400px)",
-
-            height: "auto",
+            width: "400px",
+            height: "400px",
             objectFit: "contain",
             zIndex: 1000,
             pointerEvents: "none",
