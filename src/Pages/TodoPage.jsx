@@ -170,7 +170,7 @@ function TodoPage() {
             position: "relative",
             bottom: "10px",
             right: "20px",
-            width: "clamp(180px, 28vw, 350px)",
+            width: "clamp(200px, 28vw, 350px)",
             height: "auto",
             objectFit: "contain",
             zIndex: 1000,
