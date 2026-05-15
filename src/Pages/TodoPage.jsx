@@ -117,7 +117,12 @@ function TodoPage() {
             fontSize: "clamp(12px, 1vw, 15px)",
             fontWeight: "600",
             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+
+            maxWidth: "min(220px, 70vw)",
             whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+
             transition: "all 0.25s ease-in-out",
             cursor: "default",
             pointerEvents: "auto",
