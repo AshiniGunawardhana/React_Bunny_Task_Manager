@@ -62,7 +62,7 @@ function Header({ deleteCompleted }) {
             onClick={deleteCompleted}
             sx={{
               right: "18px",
-              top: "-2px",
+              top: "8px",
               backgroundColor: "white",
               border: "2px solid #E58F7C",
               color: "#E58F7C",
